@@ -322,26 +322,19 @@ nav ul li a {
 
 #portfolio {
   position: relative;
-  padding-bottom: 50px;
-  word-wrap: break-word;
+  /* padding-bottom: 50px; */
+  /* word-wrap: break-word; */
 }
 
 #portfolio .portfolio-container {
-  margin-bottom: 50px;
-  width: 100%;
+  display: flex;
+  align-content: center;
 }
 
-.portfolio-thumbnail {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  padding-top: 10px;
-  padding-bottom: 30px;
-  overflow: auto;
-  height: 300px;
-  border: 1px;
-  border-style: solid;
-  border-color: black;
+.portfolio-container .portfolio-thumbnail {
+  align-self: auto;
+  padding: 30px;
+  border: 1px solid black;
 }
 
 .portfolio-thumbnail img {
